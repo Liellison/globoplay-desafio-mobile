@@ -26,6 +26,11 @@ class ViewController: UITabBarController {
         listVC.tabBarItem.image = UIImage(named: "baseline_star_rate_black_24")
         
         self.tabBar.tintColor = .black
+        
+        MovieDao.getMovies("") { (movies) in
+            print(movies.title)
+        }
+            
     }
 
 
