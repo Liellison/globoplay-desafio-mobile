@@ -28,7 +28,7 @@ class ViewController: UITabBarController {
         self.tabBar.tintColor = .black
         
         MovieDao.getMovies("") { (movies) in
-            print(movies.title)
+            print(movies.results)
         }
             
     }
