@@ -21,9 +21,9 @@ class ViewController: UITabBarController {
         
         // Setup title
         homeVC.title = NSLocalizedString("home", comment: "")
-        homeVC.tabBarItem.image = UIImage(named: "MinhaEncomendaIcon")
+        homeVC.tabBarItem.image = UIImage(named: "home")
         listVC.title = NSLocalizedString("list", comment: "")
-        listVC.tabBarItem.image = UIImage(named: "EnviarEncomendaIcon")
+        listVC.tabBarItem.image = UIImage(named: "baseline_star_rate_black_24")
         
         self.tabBar.tintColor = .black
     }
